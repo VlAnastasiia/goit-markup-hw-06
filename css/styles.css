@@ -273,7 +273,24 @@ body {
 {
   fill: currentColor;
 }
+input::placeholder
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 
+}
+.form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
 /* About features */
 
 
@@ -754,6 +771,6 @@ img{
   max-width: 100%;
   height: auto;
 }
-label {
+input {
   display: block;
 }
