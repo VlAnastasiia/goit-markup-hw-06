@@ -813,7 +813,7 @@ body {
 }
 .footer-tg
 {
-  fill: var(--background-color);
+  fill: currentColor;
 }
 /* portfolio filter buttons */
 
