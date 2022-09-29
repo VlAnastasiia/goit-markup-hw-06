@@ -60,36 +60,42 @@
         <button class="btn-hero" type="button" data-modal-open>Замовити послугу</button>
           <!-- MODAL WINDOW -->
           <div class="backdrop is-hidden" data-modal> 
-            <div class="modal" role="group">
+            <div class="modal">
             <button class="modal-button" type="button"  data-modal-close>
               <svg class="modal-svg" width="11" height="11"><use href="./images/icons.svg/symbol-defs.svg#icon-closed"></use></svg>  
             </button>
-            <strong>Залиште свої данні, ми вам передзвонимо</strong>
-            <form name="register-form" autocomplete="off" novalidate>
-              <div class="form">
-              <label for="name"><span>Ім'я</span>
-              <input type="text" name="name" id="name" placeholder="Максим Іванов"/>
+            <form class="register-form" name="register-form" autocomplete="off" novalidate>
+              <strong class="form-title">Залиште свої данні, ми вам передзвонимо</strong>
+              <div class="form-group" role="group">
+              <label class="label" for="name"><span>Ім'я</span>
+                <div class="input-box">
+              <input class="input" type="text" name="name" id="name" placeholder="Максим Іванов"/>
+                </div>
             </label>
         
-              <label for="tel"><span>Телефон</span>
-              <input type="tel" name="tel" id="tel" placeholder="+38 050 555 55 55"/>
+              <label class="label" for="tel"><span class="label-span">Телефон</span>
+                <div class="input-box">
+              <input class="input" type="tel" name="tel" id="tel" placeholder="+38 050 555 55 55"/>
+                </div>
             </label>
                  
-              <label for="mail"><span>Пошта</span>
-              <input type="email" name="mail" id="mail" placeholder="example@mail.com">
+              <label class="label" for="mail"><span class="label-span">Пошта</span>
+                <div class="input-box">
+              <input class="input" type="email" name="mail" id="mail" placeholder="example@mail.com">
+                </div>
             </label>
                  
-              <label for="comment"><span>Коментар</span>
-              <textarea name="comment" rows="5" id="comment" placeholder="Введіть текст">
+              <label for="comment"><span class="label-span">Коментар</span>
+              <textarea class="comment" name="comment" rows="10" id="comment" placeholder="Введіть текст">
               </textarea>
             </label>
               </div>
 
-              <label for="">
-                <input type="checkbox" name="" /><span>Погоджуюсь з розсилкою та приймаю <a href="">Умови договору</a>
+              <label class="terms">
+                <input class="policy visually-hidden" type="checkbox" name="agree" id="agree" /><span class="terms-span">Погоджуюсь з розсилкою та приймаю <a class="link terms-link" href="">Умови договору</a>
                 </span>
               </label>
-              <button type="submit">Відправити</button>
+              <button class="form-button" type="submit">Відправити</button>
             </form>
             </div>
           </div>
