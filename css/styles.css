@@ -776,12 +776,12 @@ body {
 {
   color: var(--background-color);
 }
-.footer-input:hover,
+/* .footer-input:hover,
 .footer-input:focus
 {
   border-color: var(--accent-color);
   transition: border-color var(--transition-duration);
-}
+} */
 .footer-form input 
 {
   width: 358px;
