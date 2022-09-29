@@ -270,6 +270,16 @@ body {
   border-radius: 50px;
   cursor: pointer;
 }
+.modal-button:hover,
+.modal-button:focus
+{
+  border-color: var(--accent-color);
+}
+.modal-button:focus .modal-svg,
+.modal-button:hover .modal-svg
+{
+  color: var(--accent-color);
+}
 .modal-svg
 {
   fill: currentColor;
@@ -402,6 +412,7 @@ body {
 .agreement-link
 {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .form-button
