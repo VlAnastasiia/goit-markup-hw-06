@@ -812,6 +812,11 @@ body {
   cursor: pointer;
   
 }
+.footer-btn:focus,
+.footer-btn:hover
+{
+  background-color: #188CE8;
+}
 .footer-tg
 {
   fill: var(--background-color);
