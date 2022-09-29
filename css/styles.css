@@ -809,6 +809,7 @@ body {
   color: var(--background-color);
   background-color: var(--accent-color);
   margin-top: 20px;
+  cursor: pointer;
   
 }
 .footer-tg
